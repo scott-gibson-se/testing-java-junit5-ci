@@ -25,7 +25,7 @@ class OwnerTest implements ModelTests {
 
         assertAll("Properties Test",
                 () -> assertAll("Person Properties",
-                        () -> assertEquals("Joe", owner.getFirstName(), "First Name Did not Match"),
+                        () -> assertEquals("JoeQ", owner.getFirstName(), "First Name Did not Match"),
                         () -> assertEquals("Buck", owner.getLastName())),
                 () -> assertAll("Owner Properties",
                         () -> assertEquals("Key West", owner.getCity(), "City Did Not Match"),
